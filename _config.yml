@@ -1,0 +1,11 @@
+title: "songbly"
+title_separator: "-"
+description: welcome to songbly's world ;)
+name: "Hyeseong"
+show_downloads: false
+url: "https://songbly.github.io"
+remote_theme: "dracula/gh-pages"
+show_header: true
+
+sass:
+    style: compressed
