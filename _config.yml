@@ -4,6 +4,7 @@ description: welcome to songbly's world ;)
 name: "Hyeseong"
 show_downloads: false
 url: "https://songbly.github.io"
+baseurl: ""
 remote_theme: "dracula/gh-pages"
 show_header: true
 
