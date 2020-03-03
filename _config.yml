@@ -3,10 +3,28 @@ title_separator: "-"
 description: welcome to songbly's world ;)
 name: "Hyeseong"
 show_downloads: false
+email: your-email@domain.com
 url: "https://songbly.github.io"
 baseurl: ""
-remote_theme: "dracula/gh-pages"
-show_header: true
+show_excerpts: true
+remote_theme: thelehhman/texture
+theme: texture
 
 sass:
-    style: compressed
+    sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+    title: Songbly
+    tagline: Frontend-Developer.
+    date_format: "%b %-d, %Y"
+    style: red
+    showNav: true
+    showPicker: false
+    disqus_shortname: games
+    social_links:
+        github:  sonbly
+        linkedIn: in/songbly
+        rss: rss
+plugins:
+    - jekyll-seo-tag
