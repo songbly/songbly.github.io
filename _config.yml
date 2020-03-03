@@ -23,7 +23,7 @@ texture:
     showPicker: false
     disqus_shortname: games
     social_links:
-        github:  sonbly
+        github:  songbly
         linkedIn: in/songbly
         rss: rss
 plugins:
